@@ -1,7 +1,11 @@
+import Card from "./components/Card.jsx";
 
 const App = () =>{
   return <>
-  <h1>Hello</h1>
+  <div className="cards">
+    <Card/>
+    <Card/>
+  </div>
   </>
 }
 
